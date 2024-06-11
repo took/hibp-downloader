@@ -32,7 +32,7 @@ Repository = "https://github.com/threatpatrols/hibp-downloader"
 hibp-downloader = "hibp_downloader.main:entrypoint"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8.1"
 "httpx[http2]" = ">=0.21"       # https://pypi.org/project/httpx/#history
 httpcore = ">=0.14"             # https://pypi.org/project/httpcore/#history
 aiofiles = ">=0.8"              # https://pypi.org/project/aiofiles/#history
